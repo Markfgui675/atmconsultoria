@@ -1,13 +1,18 @@
 import 'package:flutter/material.dart';
 
 import 'TelaSecundaria.dart';
+import 'TelaPrincipal.dart';
 
 void main(){
   runApp(MaterialApp(
-    home: Home(),
+    debugShowCheckedModeBanner: false,
+    home: TelaPrincipal(),
+    //home: Home(),
   ));
 }
 
+//Class Home---------
+/*
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
 
@@ -38,4 +43,6 @@ class _HomeState extends State<Home> {
     );
   }
 }
+
+ */
 
