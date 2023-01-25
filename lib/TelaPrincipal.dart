@@ -46,7 +46,7 @@ class _TelaPrincipalState extends State<TelaPrincipal> {
                     children: <Widget>[
                       Padding(padding: EdgeInsets.only(top: 32, right: 16, left: 16),
                           child:
-                            GestureDetector(onTap: (){ Navigator.push(context, MaterialPageRoute(builder: (context) => TelaEmpresa())); },
+                            GestureDetector(onTap: (){ Navigator.push(context, MaterialPageRoute(builder: (context) => TelaEmpresa(texto: "História da empresa"))); },
                               child: Image.asset('imagens/menu_empresa.png'),)
                         ),
                       Padding(padding: EdgeInsets.only(top: 32, right: 16, left: 16),
